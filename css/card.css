@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor_width {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.h1{
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    font-size: 3rem;
+    border-bottom: 2px solid #ea94cd;
+    color: #ea94cd;
+}
+
+body{
+    background: #f2f2f2;
+    font-family: 'Jaro';
+}
+
+.card{
+    width: 300px;
+    padding: 0 0 30px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px gray;
+    display: inline-block;
+}
+
+.card:hover{
+    background-color: #f3c1e2;
+}
+
+.card:hover img{
+    transform: scale(1.2);
+    transition: transform 0.3s;
+}
+
+.card:hover .title {
+    color: #e46ebc;
+}
+
+.card:nth-of-type(2n + 1){
+    background: #fd8fd8;
+}
+
+.card__img{
+    width: 98%;
+    height: 180px;
+    /* object-fit: cover; */
+    display: block;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title{
+    color: #ea94cd;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.title2{
+    color: #ff62cb;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.button{
+    display: block;
+    background-color: #e8b7cc;
+    padding: 13px 0;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffff;
+    margin: 20px;
+    text-decoration: none;
+}
+
+.copy{
+    color: grey;
+}
+
+.copy2{
+    color: #fff;
+}
+
+.button:hover{
+    background-color:  #ffb8d7;
+}
+
+.button_3{
+    background-color: #fca5cb;
+}
+
+.button_2:hover{
+    background-color: #ffa7e2;
+}
+
+/* @media(min-width:900px){
+    .card{
+        background-color: #ffb8d7;
+    }
+} */
+
+/* @media screen and (min_width:288px) {
+    body{
+        padding: 5px 5px;
+    }
+
+    .card{
+
+    }
+} */
+
+.card--img:hover{
+    background-color: #efb7dd;
+}

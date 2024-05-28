@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image: linear-gradient(to top, #0d75d680 0%, #fbc2eb7a 100%), url(../img/holas.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    width: 400px;
+    height: 400px;
+    background-color: #fff;
+}
+
