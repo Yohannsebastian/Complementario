@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
 
 :root{
-    --gradientA: linear-gradient(to top, #fddb929d 0%, #d1fdffaf 100%);
-    --gradientB: linear-gradient(to right, #c3c391 0%, #ebebd3 100%);
-    --url-img: url("../img/ejemplo4.jpg");
+    --gradientA:linear-gradient(to top, #cfd9df8f 0%, #e2ebf0a1 100%);
+    --gradientB:linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    --url-img: url("../img/ejemplo1.jpg");
     --box-shadow: 6px 6px 10px rgba(0, 0, 0, .2);
     --width: 100%;
     --radius: 8px;
@@ -16,7 +16,7 @@
 }
 
 body{
-    font-family: "Mukta", sans-serif;
+    font-family: "Jost", sans-serif;
     background-image: var(--gradientA), var(--url-img);
     background-size: cover;
     background-position: center;
@@ -71,7 +71,7 @@ body{
 
 .form__submit:hover{
     background-image: var(--gradientA);
-    color: #91a329;
+    color: #00000098;
 }
 
 @media screen and (max_width:780px) {
@@ -103,22 +103,22 @@ body{
 }
 
 .input--nombre{
-    border-color: #5e5e18;
-    background-color: #e0e0ac;
+    border-color: #0bdddd96;
+    background-color: #ffffff;
 }
 
 .input--email{
-    border-color: #404009;
-    background-color: #ffffd6;
+    border-color: #0bdddd96;
+    background-color: #ffffff;
 }
 
 .input--message{
-    border-color: #6c6c53;
-    background-color: #e6e696;
+    border-color: #0bdddd96;
+    background-color: #ffffff;
 }
 
 .submit--button{
-    background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+    background-image:linear-gradient(to top, #37ecba 0%, #72afd3 100%);
     transform: matrix(5);
-    color: rgb(224, 92, 92);
+    color: rgb(0, 0, 0);
 }
